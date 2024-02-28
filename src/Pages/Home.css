@@ -88,6 +88,7 @@
     height: 80px;
   }
   .primary-display {
+    align-items: center;
     padding: 5px;
   }
   .primary-display-right p {

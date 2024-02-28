@@ -27,10 +27,10 @@
 
 @media (max-width: 500px) {
   .footer-item {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     gap: 4px;
   }
   .footer-item img {
-    width: 12px;
+    width: 10px;
   }
 }
