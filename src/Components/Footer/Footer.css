@@ -1,0 +1,36 @@
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgb(241, 37, 37);
+  padding: 30px 0px;
+}
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-size: 1.1rem;
+}
+.footer-item img {
+  width: 20px;
+}
+@media (max-width: 800px) {
+  .footer-item {
+    font-size: 0.8rem;
+  }
+  .footer-item img {
+    width: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-item {
+    font-size: 0.6rem;
+    gap: 4px;
+  }
+  .footer-item img {
+    width: 12px;
+  }
+}

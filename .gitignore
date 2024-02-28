@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+
+# Output directory
+dist/
+
+# Cache directory
+.cache/
+
+# Environment file (if used)
+.env
+.env.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Log files
+*.log
+
+# Build files and directories
+*.log
+.DS_Store
+Thumbs.db
